@@ -1,4 +1,4 @@
-package automation_framework;
+package automation_framework.test_suites;
 
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
@@ -12,8 +12,8 @@ public class FirstTestCase {
 				
 		// Create a new instance of the Firefox driver
 		WebDriver driver = new FirefoxDriver();
-		//test message
-        //Launch the Online Store Website
+
+		//Launch the Online Store Website
 		driver.get("http://www.store.demoqa.com");
 
         // Print a Log In message to the screen
